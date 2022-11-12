@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta Language:American English>
+      <meta Countery:Bangladesh>
+      <meta Course Code:CSE102-1>
+      <meta Student Id:>
+      <meta  Student Name:Bangladesh>
+        <title>Regitration</title>
+        <link rel="shortcut icon" type="img/png" href="https://upload.wikimedia.org/wikipedia/commons/4/4f/Today%27s_featured_article_request.png">
+    </head>
+    <style>
+        /* font family is added */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+        .container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: rgba(240, 255, 255, 0.479);
+  box-shadow: 2px,2px,2px lightblue;
+}
+h1, p{
+    text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+
+h3, p {
+  text-align: center;
+}
+
+
+/* styles added to beautify the input fields */
+input {
+  margin: 0.25em 0em 1em 0em;
+  outline: none;
+  padding: 0.5em;
+  border: none;
+  background-color: rgb(225, 225, 225);
+  border-radius: 0.25em;
+  color: black;
+}
+textarea{
+    padding: 0.75em;
+    border: 0.75em;;
+}
+/* styles for button */
+a {
+  padding: 0.75em;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(68, 18, 232);
+  color: white;
+  border-radius: 0.25em;
+
+}
+
+/* hover functionality for button */
+a:hover {
+  cursor: pointer;
+  background-color: rgb(41, 4, 164);
+}
+
+
+    </style>
+    <body>
+        <form>
+            <!-- class named "container" is assigned to div -->
+            <div class="container">
+              <h3>Covid19 vaccin Register Form</h3>
+             
+              <label for="username"><b>Username</b></label>
+              <input
+                type="text"
+                placeholder="Enter username"
+                name="username"
+                id="username"
+               
+              />
+      
+              <label for="email"><b>Email</b></label>
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="email"
+                id="email"
+                
+              />
+              <label for="tel"><b>Number</b></label>
+              <input type="tel"
+              placeholder="Enter yor number"
+                name="tel"
+                id="tel"
+                
+              
+              />
+              <label for="pwd"><b>Password</b></label>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                name="pwd"
+                id="pwd"
+               
+              />
+      
+               <!-- fro file -->
+              <label for="file"><b>FileUplod</b></label>
+              <input
+                type="file"
+                placeholder="FileUplod"
+                name="file"
+                id="file"
+               
+              />
+              <!-- fro radio buttons -->
+              <label for="date"><b>Have you been diagnosed eith COVID19?</b></label>
+              <span>  <input type="radio" name="yes" value="yes">Yes</span>
+              <span> <input type="radio" name="no" value="no">No</span>
+              <label for="about">If yes,please provide further dtails</label></td>
+              <textarea name="about" id="about" placeholder="Write about yourself..."></textarea>
+             
+               <!-- fro check box -->
+               <label for="date"><b>please check the symptoms that apply</b></label>
+              <span><input type="checkbox" value="Loss of taster or small">Loss of taster or small</span>
+              <span><input type="checkbox" value="High Fever">High Fever</span>
+              <span><input type="checkbox" value="Body Aches">Body Aches</span>
+            
+              <!-- fro drop down menu -->
+              <label for="dose"><b>Which dose you want?</b></label>
+           <select name="dose" id="lang">
+           <option value="1st dose">1st dose</option>
+          <option value="2nd dose">2nd dose</option>
+           <option value="3rd dose">3rd dose</option>
+           
+          </select>
+          <label for="date"><b>Date</b></label>
+              <input
+                type="date"
+                placeholder="date"
+                name="date"
+                id="date"
+               
+              />
+              <label for="color"><b>Color Piker</b></label>
+              <input
+                type="color"
+               
+                name="color"
+                id="color"
+               
+              />
+             
+             <a href="https://surokkha.gov.bd/verify"type="submit" target="_blank">Register</a>
+            </div>
+      
+            
+          </form>
+      
+        
+    </body>
+</html>
